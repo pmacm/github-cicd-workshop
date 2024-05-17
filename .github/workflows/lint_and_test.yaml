@@ -16,7 +16,7 @@ jobs:
     - name: install dependencies
       run: python -m pip install pytest
     - name: Run tests
-      working-directory: exercise2
+      working-directory: exercise_2
       run: pytest
 
 
@@ -31,5 +31,5 @@ jobs:
     - name: install dependencies
       run: python -m pip install flake8
     - name: Run tests
-      working-directory: exercise2
+      working-directory: exercise_2
       run: flake8 .
